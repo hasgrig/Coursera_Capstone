@@ -1,2 +1,3 @@
-# Coursera_Capstone
-This repository is for the Capstone project of IBM's professional data science specialization on Coursera. 
+# Comparing Neighborhoods between Chicago and New York City 
+## IBM Data Science Professional Certificate
+## Capstone Project
