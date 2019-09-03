@@ -6,3 +6,5 @@ Most big enough cities have similar sets of neighborhoods; the homey ones, the o
 I scraped the list of neighborhoods for Chicago and NYC from Wikipedia. I used **geopy** in order to get the latitude and longitude of the neighborhoods. The data needed cleaning because of incorrect locations returned by geopy and improperly named neighborhoods. I ended up with 225 neighborhoods in Chicago and 303 in NYC. 
 <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/Chicago.JPG" alt="chicago" width="400" height="400">
 <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/NYC.JPG" alt="NYC" width="400" height="400">
+I used **Foursquare API** to look up nearby venues for each neighborhood. After small modifications, the categories of venues became the features of each neighborhood with the value being number of venues in the category. Below are the top categories of venues. 
+<img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/TopVenues.JPG" alt="TopVenues">
