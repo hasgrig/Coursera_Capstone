@@ -14,11 +14,18 @@ I started with **k-means** clustering in order to create a map for general explo
 <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/NYC_clust.JPG" alt="NYC clustered" width="400" height="400">
 While clustering provides a fun tool for exploring the two cities in general and globally comparing the neighborhoods between them, it is not a good recommender. For this reason I used **cosine similarity** and wrote a function that maps most similar neighborhoods to a neighborhood of your choice. 
 <figure>
-  <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/soho_chi.JPG" alt="Soho" style="width:100%">
+  <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/soho_chi.JPG" alt="Soho" style="width:60%">
   <figcaption>Recommendations in Chicago if you like SoHo in NYC</figcaption>
 </figure>
 <figure>
-  <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/wicker_nyc.JPG" alt="Wicker" style="width:100%">
+  <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/wicker_nyc.JPG" alt="Wicker" style="width:60%">
   <figcaption>Recommendations in New York if you like Wicker Park in Chicago</figcaption>
 </figure>
-
+### Discussion
+Because the purpose of this tool is recommending neighborhoods further analysis could be done to provide explanations for the recommendations. Right now, each recommendation comes with a similarity score. However, given the simple design of the features, one could provide a visualization further breaking apart the similarity in categories. Example venues from the most influential features could also be a good idea. 
+### Final Notes
+Because this tool is meant to be interacted with I highly recommend looking into the codde and trying out some neighborhoods that you're familiar with. </br>
+**Coursera_Capstone.pdf** is the formal report for the project and includes more details on the methodologies and the results. </br>
+**Neighborhood-Recommender.ipynb** is the full project from data scraping to preprocessing to results. </br>
+**.csv files** are some of the dataframes set up in the code that I saved for ease of use </br>
+The other .ipynb files are smaller projects completed during the capstone course. 
