@@ -9,7 +9,7 @@ I scraped the list of neighborhoods for Chicago and NYC from Wikipedia. I used *
 I used **Foursquare API** to look up nearby venues for each neighborhood. After small modifications, the categories of venues became the features of each neighborhood with the value being number of venues in the category. Below are the top categories of venues. 
 <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/TopVenues.JPG" alt="TopVenues">
 ### Methodology
-I started with **k-means** clustering in order to create a map for general exploration. This also helped validate my features since the clusters tended to be geographically nearby, suburbs clustered together and Chicago and NYC neighborhoods tended to get separated into different clusters. 
+I started with **k-means** clustering in order to create a map for general exploration. This also helped validate my features since the clusters tended to be geographically nearby, suburbs clustered together and Chicago and NYC neighborhoods tended to get separated into different clusters. </br>
 <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/Chi_clust.JPG" alt="Chicago clustered" width="400" height="400">
 <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/NYC_clust.JPG" alt="NYC clustered" width="400" height="400">
 
