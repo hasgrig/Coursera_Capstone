@@ -21,8 +21,6 @@ While clustering provides a fun tool for exploring the two cities in general and
   <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/wicker_nyc.JPG" alt="Wicker" width = "400" height = "400">
   <figcaption>Recommendations in New York if you like Wicker Park in Chicago</figcaption>
 </figure>
-</script>
-
 ### Discussion
 Because the purpose of this tool is recommending neighborhoods further analysis could be done to provide explanations for the recommendations. Right now, each recommendation comes with a similarity score. However, given the simple design of the features, one could provide a visualization further breaking apart the similarity in categories. Example venues from the most influential features could also be a good idea. 
 ### Final Notes
