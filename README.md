@@ -13,14 +13,13 @@ I started with **k-means** clustering in order to create a map for general explo
 <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/Chi_clust.JPG" alt="Chicago clustered" width="400" height="400">
 <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/NYC_clust.JPG" alt="NYC clustered" width="400" height="400"> </br>
 While clustering provides a fun tool for exploring the two cities in general and globally comparing the neighborhoods between them, it is not a good recommender. For this reason I used **cosine similarity** and wrote a function that maps most similar neighborhoods to a neighborhood of your choice. 
-<figure>
+
   <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/soho_chi.JPG" alt="Soho" width = "400" height = "400">
   <figcaption>Recommendations in Chicago if you like SoHo in NYC</figcaption>
-</figure>
-<figure>
+
   <img src="https://github.com/hasgrig/Coursera_Capstone/blob/master/sample_screenshots/wicker_nyc.JPG" alt="Wicker" width = "400" height = "400">
   <figcaption>Recommendations in New York if you like Wicker Park in Chicago</figcaption>
-</figure>
+
 ### Discussion
 Because the purpose of this tool is recommending neighborhoods further analysis could be done to provide explanations for the recommendations. Right now, each recommendation comes with a similarity score. However, given the simple design of the features, one could provide a visualization further breaking apart the similarity in categories. Example venues from the most influential features could also be a good idea. 
 ### Final Notes
